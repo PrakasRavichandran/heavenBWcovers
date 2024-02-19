@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/flipbook.style.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <!-- Icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Bootstrap Css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="js/flipbook.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      // Function to initialize flipBook for each book
+      function initializeFlipBook(selector, pdfUrl) {
+        $(selector).flipBook({
+          // Your flipBook options here
+          pdfUrl: pdfUrl,
+          btnColor: 'rgb(255,120,60)',
+          sideBtnRadius: 60,
+          sideBtnSize: 60,
+          sideBtnBackground: "rgba(0,0,0,.7)",
+          sideBtnColor: 'rgb(255,120,60)',
+          lightBox: true,
+          viewMode: "3d",
+          layout: 3,
+          btnSound: { vAlign: "top", hAlign: "left" },
+          btnAutoplay: { vAlign: "top", hAlign: "left" },
+          currentPage: { vAlign: "bottom", hAlign: "left" }
+        });
+      }
+
+      var books = [
+        { selector: ".book-1", pdfUrl: "pdf/1_Automatic-Control-Systems–9th-Ed-by-Benjamin-C-Kuo.pdf" },
+        { selector: ".book-2", pdfUrl: "pdf/1_fundamentals-of-power-electronics_2nd_erickson.pdf" },
+        { selector: ".book-3", pdfUrl: "pdf/1_Modern-control-systems–11th-Ed-by-Richard-C-Dorf.pdf" },
+        { selector: ".book-4", pdfUrl: "pdf/8051_Microcontroller_Mazidi.pdf" },
+        { selector: ".book-5", pdfUrl: "pdf/A_First_Course_In_Electrical_and_Computer_Engineering.pdf" },
+        { selector: ".book-6", pdfUrl: "pdf/A_Textbook_of_Electrical_Technology_Vol_2_Theraja.pdf" },
+        { selector: ".book-7", pdfUrl: "pdf/A_Textbook_of_Electrical_Technology_Vol_1_by_Theraja.pdf" },
+        { selector: ".book-8", pdfUrl: "pdf/concepts-in-electric-circuits.pdf" },
+        { selector: ".book-9", pdfUrl: "pdf/AC_Power_System-1.pdf" },
+        { selector: ".book-10", pdfUrl: "pdf/AC_Power_System-2.pdf" },
+        { selector: ".book-11", pdfUrl: "pdf/Adaptive_Control.pdf" },
+        { selector: ".book-12", pdfUrl: "pdf/Adaptive_Filters.pdf" },
+        { selector: ".book-13", pdfUrl: "pdf/Advanced_Industrial_Control_Technology.pdf" },
+        { selector: ".book-14", pdfUrl: "pdf/Advanced_Process_Control.pdf" },
+        { selector: ".book-15", pdfUrl: "pdf/ARm_By_Adrew_Sloos.pdf" }
+      ];
+
+      // Initialize flipBook for each book
+      books.forEach(function (book) {
+        initializeFlipBook(book.selector, book.pdfUrl);
+      });
+    });
+
+  </script>
+
+  <style type="text/css">
+    body {
+      background-color: #f6f6f6;
+      background-image: url('images/Page-1.png');
+      background-size: cover;
+      background-repeat: repeat;
+      background-attachment: fixed;
+      /* This ensures that the background image stays fixed while the content scrolls */
+      background-position: center;
+    }
+
+    /* Media Query for adjusting background image on smaller screens */
+    @media (max-width: 768px) {
+      body {
+        background-size: contain;
+        /* Adjust as per your requirement */
+      }
+    }
+
+    .bookshelf .thumb {
+      display: inline-block;
+      cursor: pointer;
+      margin: 0px 0.5%;
+      width: 15% !important;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
+      max-width: 100px;
+    }
+
+    .bookshelf .thumb img {
+      width: 100%;
+      display: block;
+      vertical-align: top;
+    }
+
+    .bookshelf .shelf-img {
+      z-index: 0;
+      height: auto;
+      max-width: 100%;
+      vertical-align: top;
+      margin-top: -12px;
+    }
+
+    .bookshelf .covers {
+      width: 100%;
+      height: auto;
+      z-index: 99;
+      position: relative;
+      text-align: center;
+    }
+
+    .bookshelf {
+      text-align: center;
+      padding: 0px;
+    }
+  </style>
+  <link rel="shortcut icon" href="images/favicon.svg">
+  <title>HBC Home🏠</title>
+</head>
+
+<body>
+
+  <!-- Just an image -->
+  <nav class="navbar navbar-light bg-white fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.svg" width="125" height="50" alt="">
+    </a>
+  </nav>
+
+  <br><br><br><br><br>
+
+  <div class="bookshelf">
+    <div class="covers">
+      <div class="thumb book-1"><img src="images/thumb/1.jpg"></div>
+      <div class="thumb book-2"><img src="images/thumb/2.jpg"></div>
+      <div class="thumb book-3"><img src="images/thumb/3.jpg"></div>
+      <div class="thumb book-4"><img src="images/thumb/4.jpg"></div>
+      <div class="thumb book-5"><img src="images/thumb/5.jpg"></div>
+    </div>
+    <img class="shelf-img" src="images/shelf_wood.png">
+  </div>
+  <div class="bookshelf">
+    <div class="covers">
+      <div class="thumb book-6"><img src="images/thumb/6.jpg"></div>
+      <div class="thumb book-7"><img src="images/thumb/7.jpg"></div>
+      <div class="thumb book-8"><img src="images/thumb/8.jpg"></div>
+      <div class="thumb book-9"><img src="images/thumb/9.jpg"></div>
+      <div class="thumb book-10"><img src="images/thumb/10.jpg"></div>
+    </div>
+    <img class="shelf-img" src="images/shelf_wood.png">
+  </div>
+  <div class="bookshelf">
+    <div class="covers">
+      <div class="thumb book-11"><img src="images/thumb/11.jpg"></div>
+      <div class="thumb book-12"><img src="images/thumb/12.jpg"></div>
+      <div class="thumb book-13"><img src="images/thumb/13.jpg"></div>
+      <div class="thumb book-14"><img src="images/thumb/14.jpg"></div>
+      <div class="thumb book-15"><img src="images/thumb/15.jpg"></div>
+    </div>
+    <img class="shelf-img" src="images/shelf_wood.png">
+  </div>
+
+  <!-- Pagination -->
+  <nav>
+    <ul class="pagination justify-content-center">
+
+      <li class="page-item active"><a class="page-link" href="./index.html">1</a></li>
+      <li class="page-item active"><a class="page-link" href="./page-2.html">2</a></li>
+      <li class="page-item active"><a class="page-link" href="./page-3.html">3</a></li>
+      <li class="page-item active"><a class="page-link" href="./page-4.html">4</a></li>
+
+    </ul>
+  </nav>
+  <!-- End Of Pagination -->
+
+  <!-- Footer -->
+  <section id="footer" class="footer mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+          <ul class="list-unstyled list-inline social text-center">
+            <li class="list-inline-item"><a href="./index.html"><img src="./images/footer.svg" width="50%"></a></li>
+          </ul>
+        </div>
+        </hr>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+          <p class="h6">Copyright © 2024 Corruption Eradication Commission. All Rights Reserved.</p>
+        </div>
+        </hr>
+      </div>
+    </div>
+  </section>
+  <!-- End Of Footer -->
+
+  <!-- Bootstrap Js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

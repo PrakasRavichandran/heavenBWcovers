@@ -1,0 +1,609 @@
+I need to add 81 books. I copy paste the format coed. Change selector like. book-1, book-2, book-3 to book-81. and book pdfurl is "pdf/*book name*". I add the 81 books name down so add it respectively 1 to 81.
+
+
+code:  
+
+// Define books
+    var books = [
+        {
+            selector: ".book-1",
+            pdfUrl: 'book/Tooley_Electronic_Circuits_-_Fundamentals_and_ApBookZZ.org_.pdf'
+        },
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        {
+            selector: ".book-1",
+            pdfUrl: 'book/Tooley_Electronic_Circuits_-_Fundamentals_and_ApBookZZ.org_.pdf'
+        },
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        {
+            selector: ".book-2",
+            pdfUrl: 'pdf/understanding.pdf'
+        },
+        
+        
+    ];
+
+
+    Book names:
+
+    101_Linux Hacks_Commands.pdf
+1_Automatic-Control-Systems-9th-Ed-by-Benjamin-C-Kuo.pdf
+1_fundamentals-of-power-electronics_2nd_erickson.pdf
+1_Modern-control-systems-11th-Ed-by-Richard-C-Dorf.pdf
+301_Automatic-Control-Systems-9th-Ed-by-Benjamin-C-Kuo.pdf
+301_fundamentals-of-power-electronics_2nd_erickson.pdf
+301_Modern-control-systems-11th-Ed-by-Richard-C-Dorf.pdf
+4Linux - 450 Linux Essentials (+Atualizado 2012).pdf
+601_Automatic-Control-Systems-9th-Ed-by-Benjamin-C-Kuo.pdf
+601_fundamentals-of-power-electronics_2nd_erickson.pdf
+601_Modern-control-systems-11th-Ed-by-Richard-C-Dorf.pdf
+7.3_Apostila_eletronica.pdf
+8051 Microcontroller_Mazidi.pdf
+901_Automatic-Control-Systems-9th-Ed-by-Benjamin-C-Kuo.pdf
+901_Modern-control-systems-11th-Ed-by-Richard-C-Dorf.pdf
+A First Course In Electrical and Computer Engineering.pdf
+A Textbook of Electrical Technology Vol. 2 - Theraja.pdf
+A Textbook of Electrical Technology Vol.1 by Theraja.pdf
+A Wavelet Tour of Signal Processing Third Edition.pdf
+AC Power System-1.pdf
+AC Power System-2.pdf
+Adaptive Control.pdf
+Adaptive Filters.pdf
+Advanced Industrial Control Technology pdf.pdf
+Advanced Process Control.pdf
+ARm By Adrew Sloos.pdf
+Basic Electronics.pdf
+concepts-in-electric-circuits.pdf
+Data Structures_Thareja, Reema.pdf
+Digital Design - Mano.pdf
+elctricity_and_electronics_for_HVAC.pdf
+Electric Machines (2n Edition) - Charles I. Hubert.pdf
+Electrical-Power-Systems-Technology-3rd-Edition-by-Stephen-W-Fardo_Dale-R-Patrick.pdf
+electricity_emystified.pdf
+electric_circuits.pdf
+electric_circuits_2.pdf
+electric_machinery-6th-edition.pdf
+electric_universe.pdf
+Electronic Devices and Circuit Theory by Boylestad 7th Edition.pdf
+electronics_for_kids-electronics-for-kid.pdf
+Engineering_Circuit_Analysis_Hayt_8th.PDF
+experiments_in_electronics_and_electric_circuits.pdf
+Fundamentals of Electric Circuits-4th-ed.pdf
+fundamentals-of-electric-circuits.pdf
+Fundamentals-Signals-Systems.pdf
+fundamental_eletrical_and_electronic-principles.pdf
+handbook-of-electrical-design-details.pdf
+handbook_of_electrical_engineering.pdf
+Hughes Electrical and Electronic Technology 10th Edition.pdf
+Introduction to Arduino.pdf
+Introduction to control system.pdf
+Let Us C by Yashwant ( PDFDrive ).pdf
+Linux Linux Command Line, Cover all essential Linux commands .pdf
+make_electronics.pdf
+mcgraw-hill-schaum-outlines-signals-and-systems.pdf
+Power System Analysis And Design by Glover Sharma.pdf
+power system analysis.pdf
+power-electronics-by-daniel-w-hart.pdf
+power-electronics-handbook.pdf
+Power-System-Analysis-Murthy.pdf
+Practical Electronics for Inventors - 3rd Edition.pdf
+practical_electricity.pdf
+Practical_Electronics_for_Inventors.pdf
+principles of electrical machines( v.k mehta).pdf
+Principles of Power System by V K Mehta.pdf
+Principles-of-Power-Systems-by-VK-Mehta.pdf
+Raspberry Pi Cookbook-simon monk.pdf
+RF-Circuit-Design.pdf
+Signal Processing and Linear Systems by BP LATHI.pdf
+signals-and-systems-bernd-girod.pdf
+signals-and-systems-by-david-mcmohan.pdf
+solution-Modern-Control-Systems-11th-Edition-Solution-Manual-by-Richard-C-Dorf.pdf
+Solutions-Manual-Automatic-Control-Systems-9th-Edition-by-KUO.pdf
+structure-and-interpretation-of-signals-and-systems-by-addison-wesley.pdf
+teach_yorself_elctricity_and_electronics.pdf
+tesla_inventor_of_the_electrical_age.pdf
+The Art of Electronics - Horowitz & Hill.pdf
+theory and design of electronic circuits.pdf
+Tooley_Electronic_Circuits_-_Fundamentals_and_ApBookZZ.org_.pdf
+understanding_physics_electricity_and_magnetisim.pdf
+V.K-Mehta-Principles-of-Electronics.pdf
