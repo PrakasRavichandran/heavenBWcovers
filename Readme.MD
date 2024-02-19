@@ -1,6 +1,6 @@
 # Heaven Between Covers 📖
 
-![](./images/logo.svg)
+![](/images/logo.svg)
 
 Welcome to Heaven Between Covers, where every page holds a piece of paradise. Our online book library management system brings the enchantment of literature to your fingertips.
 
