@@ -1,4 +1,4 @@
-<img src="./images/logo.svg" width="250" align="right" hspace="0" />
+<img src="./images/logo.svg" width="225" align="right" hspace="0" />
 
 ✨ &nbsp;Heaven Between Covers 📖
 ======
