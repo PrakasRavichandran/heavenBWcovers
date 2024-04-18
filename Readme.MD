@@ -1,8 +1,7 @@
-<img src="./images/logo.svg" width="144" align="right" hspace="0" />
+<img src="./images/logo.svg" width="250" align="right" hspace="0" />
 
 ✨ &nbsp;Heaven Between Covers 📖
 ======
-
 
 Welcome to Heaven Between Covers, where every page holds a piece of paradise. Our online book library management system brings the enchantment of literature to your fingertips.
 
